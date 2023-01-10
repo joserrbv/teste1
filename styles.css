@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    
+}
+
+body{
+    background-color: aqua;
+    height: 100%;
+}
+
+#arvore{
+    text-align: center;
+}
+.tree{
+    width: 45%;
+    height: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.fruta1 {
+    background-color: aqua;
+
+}
+
+.fruta1 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 250px;
+    left: 450px;
+    cursor: pointer;
+}
+
+.fruta2 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 270px;
+    left: 750px;
+    cursor: pointer;
+}
+
+.fruta3 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 150px;
+    left: 650px;
+    cursor: pointer;
+}
+
+.fruta4 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 310px;
+    left: 550px;
+    cursor: pointer;
+}
+
+.fruta5 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 290px;
+    left: 650px;
+    cursor: pointer;
+}
+
+#contador {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1.2rem;
+    justify-content: center;
+    gap: 8rem;
+
+}
+
+#card1 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    top: 300px;
+    left:180px;
+    display: NONE;
+    font-size: 75;
+}
+
+.fruta1:hover #card1{
+    display: block;
+}
+
+#card2 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    top: 300px;
+    left:180px;
+    display: NONE;
+    font-size: 75;
+}
+
+.fruta2:hover #card2{
+    display: block;
+}
+
+#card3 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+    top: 300px;
+    left:180px;
+    display: NONE;
+    font-size: 75;
+}
+
+.fruta3:hover #card3{
+    display: block;
+}
+
+#card4{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    left:180px;
+    display: NONE;
+    font-size: 75;
+}
+
+.fruta4:hover #card4{
+    display: block;
+}
+
+#card5 {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    position: absolute;
+    top: 300px;
+    left:180px;
+    display: NONE;
+    font-size: 75;
+}
+
+.fruta5:hover #card5{
+    display: block;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 77px;
+}
